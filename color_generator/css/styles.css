@@ -60,7 +60,6 @@ header .sub-section {
 .colors-container div {
     width: 25%;
     height: 100%;
-    /* both height and width are sized in proportion to its parent container */
     background-color: brown;
     display: flex;
     justify-content: center;
