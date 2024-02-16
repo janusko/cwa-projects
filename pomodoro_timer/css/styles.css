@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;600;700;900&family=Syne:wght@400;500;600;700;800&family=Work+Sans:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,400&display=swap');
+
+* {
+    font-family: 'Syne', Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #0d5c63, #0c545a, #094348);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    color: #fffffb;
+}
+
+.pomodoro-timer {
+    background-color: #fffffb22;
+    padding: 30px;
+    border: 1px solid #fffffb55;
+    border-radius: 30px;
+    box-shadow: 0 4px 30px #fffffb11;
+}
+
+.pomodoro-timer h1 {
+    font-size: 100px;
+    margin: 0;
+}
+
+.pomodoro-timer .custom-slider {
+    width: 100%;
+    height: 20px;
+    background-color: #fffffbaa;
+}
+
+.fill {
+    background-color: #ffff99;
+    height: 20px;
+    width: 100%;
+}
+
+
+/* TASKS */
+.task-block {
+    background-color: #094348;
+    border-radius: 20px;
+    margin: 10px 0;
+    height: 60px;
+    width: 412px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.task-block .delete-icon {
+    width: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.task-block p {
+    width: 242px;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.task-block .controller-button {
+    height: 100%;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    width: 120px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+/* ADD TASK INPUT */
+.input-container {
+    height: 60px;
+    width: 412px;
+    display: flex;
+
+}
+
+.input-container input {
+    background-color: #e0e0e0;
+    border-radius: 20px 0 0 20px;
+    width: 232px;
+    height: 100%;
+    padding: 0 30px;
+    border: none;
+    font-size: 20px;
+}
+
+.input-container input:focus {
+    outline: none;
+}
+
+.submit-button {
+    background-color: #a1dce3;
+    color: #fffffb;
+    border: none;
+    height: 100%;
+    width: 120px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+}
+
+.sub-text {
+    margin: 4px;
+}
+
+.active-button {
+    background-color: #b4415c;
+    color: #fffffb;
+    border: none;
+}
+
