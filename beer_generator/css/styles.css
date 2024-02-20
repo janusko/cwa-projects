@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;600;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', Arial, sans-serif;
+}
+
+body {
+    background: #c7ac92;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100svh;
+    text-align: center;
+}
+
+.beer-container {
+    width: 50svw;
+    background-color: #fffffb22;
+    padding: 2rem;
+    border-radius: 1rem;
+    border: 1px solid #fffffb55;
+    box-shadow: 0 4px 30px #fffffb11;
+}
+
+#beer-image {
+    max-height: 12.5rem;
+}
+
+h3 {
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+.beer-info {
+    display: flex;
+    justify-content: center;
+}
+
+.beer-info p {
+    font-style: italic;
+    font-size: 0.8rem;
+    margin: 1rem;
+    color: #f0f0f0;
+}
+
+#beer-button {
+    background-color: #657b6c;
+    color: #fff;
+    border: none;
+    border-radius: 1.25em;
+    padding: 1.25em;
+    margin-top: 1rem;
+}
+
+#beer-button:active {
+    background-color: #849a8b;
+    color: #f0f0f0;
+}
