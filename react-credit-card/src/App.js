@@ -12,7 +12,6 @@ const App = () => {
     const formattedCurrentMonth = formattingMonth + currentMonth;
 
     const currentYear = new Date().getFullYear();
-    // const formattedCurrentYear = currentYear % 100;
 
 
     /* ------------
@@ -21,7 +20,6 @@ const App = () => {
     const [formData, setFormData] = useState({
         name: '',
         number: '',
-        // date: formattedCurrentMonth + ' / ' + formattedCurrentYear,
         date: currentYear + '-' + formattedCurrentMonth,
         cvv: ''
     });
@@ -50,7 +48,6 @@ const App = () => {
         setFormData({
             ...formData,
             [name]: value,
-            // we have to go into the object, and override the previous property named 'name'. we can also create new properties used the [] if we wanted.
         });
 
         /* ----------------
@@ -60,7 +57,6 @@ const App = () => {
             setSide("back")
             return
         }
-        // storing state, passing as a prop through to component CreditCard, and changing side.
 
         setSide("front")
         // interact with any other input, sets side to "front"
